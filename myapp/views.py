@@ -29,7 +29,7 @@ def about(request):
     return render(request, 'about.html',{'school_name': SCHOOL_NAME,'Mobile_number':Mobile_number,'address':address,'map_embed_code': map_embed_code,})
 
 def event(request):
-    return render(request, 'event.html',{'school_name': SCHOOL_NAME,'Mobile_number':Mobile_number,'address':address,'map_embed_code': map_embed_code,})
+    return render(request, 'Event.html',{'school_name': SCHOOL_NAME,'Mobile_number':Mobile_number,'address':address,'map_embed_code': map_embed_code,})
 
 # def gallery(request):
 #     return render(request, 'gallery.html')
